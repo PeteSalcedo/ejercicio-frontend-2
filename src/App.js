@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import employees from './employees'
+import Table from "./components/table"
 
 class App extends Component {
   render() {
@@ -51,6 +52,7 @@ class App extends Component {
             <li>Los botones de texto (como agregar nuevo empleado o imprimir a consola) deben tener fondo transparente y tener texto y borde en color verde</li>
             <li>Al hacer hover deben de poner su color de fondo con el mismo color del borde y el texto pasa a ser color blanco, esto debe tener una transición</li>
           </ol>
+          <Table/>
       </div>
     );
   }
